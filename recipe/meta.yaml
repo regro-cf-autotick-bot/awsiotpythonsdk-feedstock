@@ -1,5 +1,5 @@
 {% set name = "AWSIoTPythonSDK" %}
-{% set version = "1.5.2" %}
+{% set version = "1.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/AWSIoTPythonSDK-{{ version }}.tar.gz
-  sha256: 59f20cb5b4ebe902ce21552b9005a0ef0796bba098327268bc8c9e015f23bd6d
+  sha256: c66ec16a9cb7837d515431e2c75835a4adbdd578851e19e788017830afcc9683
 
 build:
   noarch: python
